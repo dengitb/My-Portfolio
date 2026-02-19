@@ -1,6 +1,6 @@
 #  Network DoS Incident Response & Analysis (NIST CSF)
 
-##  Project Overview  
+## Project Overview  
 This project documents the analysis of a real-world–inspired network security incident using the **National Institute of Standards and Technology Cybersecurity Framework (NIST CSF)**. The objective was to assess a Denial of Service (DoS) attack, identify security gaps, and design security improvements aligned with NIST best practices. This case study demonstrates structured incident analysis, risk-based decision making, and alignment with industry frameworks commonly used in SOC and enterprise environments.
 
 ---
