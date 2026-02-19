@@ -14,14 +14,16 @@ My journey in computer science has led me to develop a passion for cybersecurity
 ## Skills
 [Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
 
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | SOC Automation Lab|
-| Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
+| Skill                                           | Associated Project         |
+|-------------------------------------------------|----------------------------|
+| SIEM Implementation and Log Analysis            | <a href="https://google.com">Detection Lab</a> |
+| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a> |
+| Security Automation with Shuffle SOAR           | SOC Automation Lab |
+| Incident Response Planning and Execution        | SOC Automation Lab |
+| Case Management with TheHive                    | SOC Automation Lab |
+| Scripting and Automation for Threat Mitigation  | SOC Automation Lab |
+| NIST CSF Incident Analysis (Identify/Protect/Detect/Respond/Recover) | <a href="./projects/dos-incident-nist-csf.md">Network DoS Incident Analysis Using NIST CSF</a> |
+| Network Security Hardening (Firewall rules, rate limiting, IDS/IPS) | <a href="./projects/dos-incident-nist-csf.md">Network DoS Incident Analysis Using NIST CSF</a> |
 
 ## Tools
 [Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
@@ -59,4 +61,4 @@ My journey in computer science has led me to develop a passion for cybersecurity
 ## Projects
 - Detection Lab
 - SOC Automation Project
-
+- <a href="./projects/dos-incident-nist-csf.md">Network DoS Incident Analysis Using NIST CSF</a>
