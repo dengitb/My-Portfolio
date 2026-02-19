@@ -1,17 +1,17 @@
-# 🚨 Network DoS Incident Response & Analysis (NIST CSF)
+#  Network DoS Incident Response & Analysis (NIST CSF)
 
-## 📌 Project Overview  
+##  Project Overview  
 This project documents the analysis of a real-world–inspired network security incident using the **National Institute of Standards and Technology Cybersecurity Framework (NIST CSF)**. The objective was to assess a Denial of Service (DoS) attack, identify security gaps, and design security improvements aligned with NIST best practices. This case study demonstrates structured incident analysis, risk-based decision making, and alignment with industry frameworks commonly used in SOC and enterprise environments.
 
 ---
 
-## 🏢 Organizational Context  
+## Organizational Context  
 **Organization Type:** Multimedia company providing web design, graphic design, and social media marketing services to small businesses.  
 **Business Impact:** The internal network outage disrupted business operations and prevented employees from accessing network resources for approximately two hours, directly impacting service delivery to clients.
 
 ---
 
-## ⚠️ Incident Summary  
+## Incident Summary  
 - **Attack Type:** Denial of Service (DoS) / ICMP Flood (DDoS-style traffic)  
 - **Attack Vector:** Flood of ICMP packets sent through an unconfigured firewall  
 - **Systems Impacted:** Internal network services and resources  
@@ -24,9 +24,9 @@ This project documents the analysis of a real-world–inspired network security 
 
 ---
 
-## 🧠 NIST CSF–Aligned Analysis
+## NIST CSF–Aligned Analysis
 
-### 🆔 Identify  
+### Identify  
 **Risk & Asset Identification**
 - Identified malicious ICMP flood attack targeting the internal network.  
 - Determined that the entire internal network was impacted, affecting availability of business-critical services.  
@@ -40,7 +40,7 @@ This project documents the analysis of a real-world–inspired network security 
 
 ---
 
-### 🛡 Protect  
+### Protect  
 **Preventive Controls Implemented**
 - Implemented firewall rules to **rate-limit incoming ICMP packets**.  
 - Deployed **IDS/IPS controls** to filter ICMP traffic exhibiting suspicious patterns.  
@@ -53,7 +53,7 @@ This project documents the analysis of a real-world–inspired network security 
 
 ---
 
-### 👁 Detect  
+### Detect  
 **Detection Enhancements**
 - Enabled **source IP address verification** on the firewall to detect spoofed IP addresses.  
 - Implemented **network monitoring software** to identify abnormal traffic patterns and sudden spikes in ICMP activity.  
@@ -65,7 +65,7 @@ This project documents the analysis of a real-world–inspired network security 
 
 ---
 
-### 🚑 Respond  
+### Respond  
 **Incident Response Actions**
 - Isolated affected network services to prevent further disruption.  
 - Prioritized restoration of **critical services** to maintain essential business operations.  
@@ -79,7 +79,7 @@ This project documents the analysis of a real-world–inspired network security 
 
 ---
 
-### 🔄 Recover  
+### Recover  
 **Service Restoration**
 - Restored network services to normal operation after attack traffic subsided.  
 - Brought non-critical services back online after stabilizing critical systems.  
@@ -91,7 +91,7 @@ This project documents the analysis of a real-world–inspired network security 
 
 ---
 
-## 🧰 Tools & Technologies  
+## Tools & Technologies  
 - Firewall (ICMP rate limiting, source IP verification)  
 - IDS/IPS  
 - Network monitoring tools  
@@ -99,7 +99,7 @@ This project documents the analysis of a real-world–inspired network security 
 
 ---
 
-## 📈 Key Outcomes & Skills Demonstrated  
+## Key Outcomes & Skills Demonstrated  
 **Outcomes:**
 - Improved firewall configuration to mitigate ICMP flood attacks  
 - Enhanced visibility into abnormal network traffic patterns  
@@ -114,7 +114,7 @@ This project documents the analysis of a real-world–inspired network security 
 
 ---
 
-## 🧩 Lessons Learned  
+## Lessons Learned  
 - Firewall misconfigurations can enable simple yet highly disruptive network-layer attacks.  
 - Proactive monitoring and rate limiting significantly reduce the impact of volumetric DoS attacks.  
 - Using the NIST CSF provides a repeatable, structured methodology for improving security posture after incidents.  
