@@ -25,7 +25,7 @@ This case study documents an internal security audit conducted within a simulate
 - Identify and categorize critical assets and exposure areas  
 - Evaluate the presence and effectiveness of administrative, technical, and physical controls  
 - Assess compliance readiness for payment security and data privacy obligations  
-- Produce actionable, risk-prioritized recommendations to strengthen security posture
+- Produce actionable, risk-prioritized recommendations to strengthen security posture  
 
 ---
 
@@ -35,7 +35,7 @@ This case study documents an internal security audit conducted within a simulate
 - Business applications and data stores (e-commerce platform, databases, inventory systems)  
 - Sensitive customer data (payment information, PII)  
 - Legacy systems requiring ongoing maintenance  
-- Physical security controls protecting facilities and equipment
+- Physical security controls protecting facilities and equipment  
 
 ---
 
@@ -54,7 +54,7 @@ This case study documents an internal security audit conducted within a simulate
   - Firewall filtering  
   - Antivirus protection  
   - Physical security measures (locks, CCTV, fire detection/prevention)  
-  - Breach notification procedures aligned with privacy obligations
+  - Breach notification procedures aligned with privacy obligations  
 
 ---
 
@@ -82,15 +82,15 @@ Breach notification processes existed, but improvements were needed in asset cla
 **Confidentiality, Integrity, Availability (CIA):**  
 - **Confidentiality:** Weakened by broad access and lack of encryption  
 - **Integrity:** Partially supported through existing system controls  
-- **Availability:** At risk due to lack of backups and disaster recovery planning
+- **Availability:** At risk due to lack of backups and disaster recovery planning  
 
 ---
 
 ## Audit Artifacts & References  
-The following artifacts were used to conduct the audit and document findings:
+The following documents were used to conduct the audit and complete the assessment:
 
-- **Audit Scope, Goals, and Risk Assessment Report**  
-  → `./artifacts/scope-goals-risk-assessment.pdf`  
+- **Botium Toys: Scope, Goals, and Risk Assessment Report**  
+  → `./artifacts/botium-toys-scope-goals-risk-assessment.pdf`  
 
 - **Control Categories (Administrative, Technical, Physical Controls)**  
   → `./artifacts/control-categories.pdf`  
@@ -98,7 +98,7 @@ The following artifacts were used to conduct the audit and document findings:
 - **Controls and Compliance Checklist (Completed Deliverable)**  
   → `./artifacts/controls-and-compliance-checklist.xlsx`  
 
-> _Note: Artifact names and paths can be adjusted to match your repository structure._
+> _Note: Update file names/paths to match your repository structure._
 
 ---
 
