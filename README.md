@@ -8,7 +8,7 @@ Welcome! This portfolio highlights my cybersecurity coursework, hands-on project
 ---
 
 ## About Me  
-I am a final-year cybersecurity master’s student graduating in May 2026 with hands-on experience in security operations, digital forensics, and incident response within academic and simulated enterprise environments. I am motivated by protecting organizations and people through practical threat detection, log analysis, and NIST-aligned incident response, and I am committed to continuously developing my skills to help organizations reduce risk and improve their security posture.
+I am a final-year cybersecurity master’s student graduating in May 2026 with hands-on experience in incident response, digital forensics, and security operations in academic and simulated enterprise environments. I am driven by protecting organizations and people through practical threat detection, log analysis, and NIST-aligned response practices. I aim to contribute to building resilient security operations that reduce risk and improve organizational security posture.
 
 ---
 
