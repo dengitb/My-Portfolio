@@ -1,6 +1,6 @@
 # Denis Souop — Cybersecurity Portfolio (SOC & Incident Response Focus)
 
-Welcome! This portfolio showcases my cybersecurity coursework, hands-on projects, and technical experience across Security Operations (SOC), Digital Forensics & Incident Response (DFIR), vulnerability assessment, and secure software practices in academic and simulated enterprise environments.
+Welcome! This portfolio highlights my cybersecurity coursework, hands-on projects, and technical experience across Security Operations (SOC), Digital Forensics & Incident Response (DFIR), vulnerability assessment, and secure software practices in academic and simulated enterprise environments.
 
 <a href="https://linkedin.com/in/yourname"><img src="https://img.shields.io/badge/LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://github.com/yourname"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
@@ -10,18 +10,15 @@ Welcome! This portfolio showcases my cybersecurity coursework, hands-on projects
 ## About Me  
 I am a final-year cybersecurity master’s student graduating in May 2026 with hands-on experience in security operations, digital forensics, and incident response within academic and simulated enterprise environments. I am motivated by protecting organizations and people through practical threat detection, log analysis, and NIST-aligned incident response, and I am committed to continuously developing my skills to help organizations reduce risk and improve their security posture.
 
-
 ---
 
 ## Core Skills
 
-| Domain                                  | Skills & Focus                                                                 | Featured Project |
-|-----------------------------------------|----------------------------------------------------------------------------------|------------------|
-| Incident Response (NIST CSF / SP 800-61) | Identify, Protect, Detect, Respond, Recover; playbooks; reporting                | <a href="./projects/dos-incident-nist-csf.md">Network DoS Incident Analysis</a> |
-| Threat Detection & Log Analysis         | Windows/Linux logs, IOCs, alert triage, basic IDS concepts                        | <a href="./projects/ransomware-incident-response.md">Ransomware IR Case Study</a> |
-| Digital Forensics (DFIR)                | Evidence handling, chain of custody, order of volatility, Autopsy analysis       | <a href="./projects/autopsy-forensics.md">Autopsy Forensics Evaluation</a> |
-| Web App Security & Vulnerability Mgmt   | OWASP Top 10, scanning, exploitation validation, reporting                       | <a href="./projects/web-vuln-assessment.md">Web App Vulnerability Assessment</a> |
-| Network Security Hardening              | Firewall rules, ICMP rate limiting, IDS/IPS basics                                | <a href="./projects/dos-incident-nist-csf.md">Network DoS Incident Analysis</a> |
+- **Incident Response & SOC Operations:** NIST CSF, NIST SP 800-61, alert triage, incident documentation, response playbooks  
+- **Threat Detection & Log Analysis:** Windows/Linux event logs, IOC identification, basic IDS concepts  
+- **Digital Forensics (DFIR):** Chain of custody, order of volatility, disk analysis with Autopsy  
+- **Web Application Security:** OWASP Top 10, vulnerability scanning, exploitation validation, reporting  
+- **Network Security Hardening:** Firewall rules, ICMP rate limiting, IDS/IPS basics  
 
 ---
 
@@ -61,7 +58,7 @@ I am a final-year cybersecurity master’s student graduating in May 2026 with h
 
 ---
 
-## Featured Projects  
+## Projects  
 - <a href="./projects/dos-incident-nist-csf.md">Network DoS Incident Response & Analysis (NIST CSF)</a>  
 - <a href="./projects/ransomware-incident-response.md">Ransomware Incident Response & Forensic Analysis</a>  
 - <a href="./projects/web-vuln-assessment.md">Web Application Vulnerability Assessment (Penetration Testing)</a>  
@@ -71,8 +68,9 @@ I am a final-year cybersecurity master’s student graduating in May 2026 with h
 
 ## Education  
 **University of Maryland Global Campus (UMGC)**  
-- Relevant Coursework: CTCH 665 – Digital Forensics & Incident Response; 
-- CTCH 685 – Cybersecurity for Software
+Relevant Coursework:  
+- CTCH 665 – Digital Forensics & Incident Response  
+- CTCH 685 – Cybersecurity for Software  
 
 ---
 
