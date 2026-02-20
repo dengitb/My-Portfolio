@@ -1,6 +1,9 @@
 # Hi there! I’m Denis Souop.  
 This GitHub portfolio showcases my cybersecurity coursework, hands-on projects, and technical accomplishments across SOC operations, digital forensics, vulnerability assessment, and incident response in academic and simulated enterprise environments.
 
+**Professional Statement**  
+I am a cybersecurity graduate with hands-on experience in security operations, digital forensics, and incident response within academic and simulated enterprise environments. I am motivated by protecting organizations and people through practical threat detection, log analysis, and NIST-aligned incident response, and I am committed to continuously developing my skills to help organizations reduce risk and improve their security posture.
+
 <a href="https://linkedin.com/in/yourname"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://github.com/yourname"><img src="https://img.shields.io/badge/-GitHub-181717?&style=for-the-badge&logo=github&logoColor=white" /></a>
 
