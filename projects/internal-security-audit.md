@@ -13,6 +13,10 @@ This case study documents an internal security audit conducted within a simulate
 ---
 
 ## Audit Scope and Objectives  
+The audit scope and initial risk posture were defined using the organization’s scope, goals, and risk assessment documentation:
+
+- <a href="./artifacts/botium-toys-scope-goals-risk-assessment.md">Botium Toys: Scope, Goals, and Risk Assessment Report</a>
+
 **Scope:**  
 - Employee devices and endpoints  
 - Internal network and internet connectivity  
@@ -26,6 +30,15 @@ This case study documents an internal security audit conducted within a simulate
 - Evaluate the presence and effectiveness of administrative, technical, and physical controls  
 - Assess compliance readiness for payment security and data privacy obligations  
 - Produce actionable, risk-prioritized recommendations to strengthen security posture  
+
+---
+
+## Control Framework & Methodology  
+Control effectiveness was evaluated using standardized control categories to ensure consistent assessment across people, process, and technology domains:
+
+- <a href="./artifacts/control-categories.md">Control Categories (Administrative, Technical, Physical Controls)</a>
+
+This framework was used to map existing safeguards, identify control gaps, and evaluate coverage across preventative, detective, corrective, and deterrent controls.
 
 ---
 
@@ -61,39 +74,25 @@ This case study documents an internal security audit conducted within a simulate
 ## Controls Assessment Summary  
 
 ### Administrative / Managerial Controls  
-Identified gaps in least privilege enforcement, separation of duties, password policy strength, centralized password management, and disaster recovery planning. These weaknesses increase the likelihood and impact of account compromise, insider misuse, and prolonged operational disruption.
+Control effectiveness was evaluated using standard control categories to assess policy enforcement, access control practices, and recovery preparedness. Gaps were identified in least privilege enforcement, separation of duties, password policy strength, centralized password management, and disaster recovery planning.
 
 ### Technical Controls  
-Baseline protections (firewall, antivirus) were present; however, critical gaps were identified in intrusion detection, encryption of sensitive data, and backup mechanisms necessary for ransomware recovery and system restoration.
+Technical safeguards were reviewed using established control classifications to identify gaps in detection, encryption, and recovery capabilities. Baseline protections (firewall, antivirus) were present, but critical gaps were observed in intrusion detection, data encryption, and backup mechanisms.
 
 ### Physical / Operational Controls  
-Physical safeguards (locks, CCTV, fire detection/prevention) provided a reasonable baseline for facility protection, reducing the risk of unauthorized physical access to assets.
+Physical protections were assessed against operational control categories to validate facility-level security posture. Existing controls such as locks, CCTV, and fire detection/prevention provided a baseline level of protection for facilities and physical assets.
 
 ---
 
-## Compliance Readiness Summary  
+## Compliance Assessment & Audit Deliverables  
+Compliance readiness and control implementation were documented using a structured assessment checklist:
 
-**Payment Security:**  
-Gaps were identified in restricting access to cardholder data, encrypting sensitive payment information, and enforcing secure password management practices.
+- <a href="./artifacts/controls-and-compliance-checklist.md">Controls and Compliance Checklist (Completed Audit Deliverable)</a>
 
-**Data Privacy:**  
-Breach notification processes existed, but improvements were required in asset classification, access control enforcement, and confidentiality protections to reduce regulatory exposure.
-
-**Confidentiality, Integrity, Availability (CIA):**  
-- **Confidentiality:** Weakened by broad access and lack of encryption  
-- **Integrity:** Partially supported through existing system controls  
-- **Availability:** At risk due to lack of backups and disaster recovery planning  
-
----
-
-## Audit Artifacts & References  
-The following materials were used to conduct the audit and complete the assessment:
-
-- <a href="../artifacts/botium-toys-scope-goals-risk-assessment.md">Botium Toys: Scope, Goals, and Risk Assessment Report</a>  
-- <a href="../artifacts/control-categories.md">Control Categories (Administrative, Technical, Physical Controls)</a>  
-- <a href="../artifacts/controls-and-compliance-checklist.md">Controls and Compliance Checklist (Completed)</a>  
-
-> _Note: Update file paths to match your repository structure._
+**Assessment Focus Areas:**  
+- Payment data protection and access control practices  
+- Data privacy and breach notification readiness  
+- Confidentiality, integrity, and availability of systems and data  
 
 ---
 
