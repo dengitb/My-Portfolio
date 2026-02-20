@@ -14,13 +14,13 @@ I am a final-year cybersecurity master’s student graduating in May 2026 with h
 
 ## Core Skills
 
-| Domain                                  | Skills & Focus                                                                 | 
-|-----------------------------------------|----------------------------------------------------------------------------------|
-| Incident Response (NIST CSF / SP 800-61) | Identify, Protect, Detect, Respond, Recover; playbooks; reporting                |
-| Threat Detection & Log Analysis         | Windows/Linux logs, IOCs, alert triage, basic IDS concepts                        | 
-| Digital Forensics (DFIR)                | Evidence handling, chain of custody, order of volatility, Autopsy analysis       |
-| Web App Security & Vulnerability Mgmt   | OWASP Top 10, scanning, exploitation validation, reporting                       |
-| Network Security Hardening              | Firewall rules, ICMP rate limiting, IDS/IPS basics                               |
+| Domain                                       | Skills & Focus                                                                                                                        |
+|----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| SOC & Incident Response (NIST CSF / SP 800-61) | Incident triage, containment and recovery workflows, NIST CSF (Identify–Protect–Detect–Respond–Recover), incident documentation/reporting |
+| Threat Detection & Log Analysis              | Windows/Linux event log analysis, IOC identification, alert triage, basic IDS concepts, traffic pattern review                         |
+| Digital Forensics (DFIR)                     | Evidence collection and preservation, chain of custody, order of volatility, disk image analysis with Autopsy                         |
+| Web Application Security & Vulnerability Mgmt| OWASP Top 10, vulnerability scanning, validation of findings (SQLi/XSS basics), remediation reporting                                  |
+| Network Security Hardening                   | Firewall rule review, ICMP rate limiting, IDS/IPS fundamentals, basic network traffic inspection                                       |
 
 ---
 
