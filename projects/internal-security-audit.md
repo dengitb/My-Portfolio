@@ -74,10 +74,10 @@ Physical safeguards (locks, CCTV, fire detection/prevention) provided a reasonab
 ## Compliance Readiness Summary  
 
 **Payment Security:**  
-Identified gaps in restricting access to cardholder data, encrypting sensitive payment information, and enforcing secure password management practices.
+Gaps were identified in restricting access to cardholder data, encrypting sensitive payment information, and enforcing secure password management practices.
 
 **Data Privacy:**  
-Breach notification processes existed, but improvements were needed in asset classification, access control enforcement, and confidentiality protections to reduce regulatory exposure.
+Breach notification processes existed, but improvements were required in asset classification, access control enforcement, and confidentiality protections to reduce regulatory exposure.
 
 **Confidentiality, Integrity, Availability (CIA):**  
 - **Confidentiality:** Weakened by broad access and lack of encryption  
@@ -87,18 +87,13 @@ Breach notification processes existed, but improvements were needed in asset cla
 ---
 
 ## Audit Artifacts & References  
-The following documents were used to conduct the audit and complete the assessment:
+The following materials were used to conduct the audit and complete the assessment:
 
-- **Botium Toys: Scope, Goals, and Risk Assessment Report**  
-  → `./artifacts/botium-toys-scope-goals-risk-assessment.pdf`  
+- <a href="../artifacts/botium-toys-scope-goals-risk-assessment.md">Botium Toys: Scope, Goals, and Risk Assessment Report</a>  
+- <a href="../artifacts/control-categories.md">Control Categories (Administrative, Technical, Physical Controls)</a>  
+- <a href="../artifacts/controls-and-compliance-checklist.md">Controls and Compliance Checklist (Completed)</a>  
 
-- **Control Categories (Administrative, Technical, Physical Controls)**  
-  → `./artifacts/control-categories.pdf`  
-
-- **Controls and Compliance Checklist (Completed Deliverable)**  
-  → `./artifacts/controls-and-compliance-checklist.xlsx`  
-
-> _Note: Update file names/paths to match your repository structure._
+> _Note: Update file paths to match your repository structure._
 
 ---
 
