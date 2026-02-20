@@ -1,64 +1,65 @@
-# Hi there! I’m Denis. This GitHub portfolio showcases my cybersecurity coursework, hands-on projects, and technical accomplishments.
+# Hi there! I’m Denis Souop.  
+This GitHub portfolio showcases my cybersecurity coursework, hands-on projects, and technical accomplishments across SOC operations, digital forensics, vulnerability assessment, and incident response in academic and simulated enterprise environments.
 
-<a href="https://linkedin.com/in/denis-souop"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://linkedin.com/in/yourname"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://github.com/yourname"><img src="https://img.shields.io/badge/-GitHub-181717?&style=for-the-badge&logo=github&logoColor=white" /></a>
 
-[Brief Introduction - Remove this afterwards]
+---
 
+## Objective  
+Entry-level SOC Analyst / Cybersecurity Analyst seeking to contribute to security operations, incident detection and response, and vulnerability management. Strong interest in applying NIST-aligned incident response frameworks, log analysis, and hands-on security tooling to improve organizational security posture.
 
-
-## Objective
-[Provide Objective - Remove this afterwards]]
-
-
+---
 
 ## Skills
-[Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
 
-| Skill                                           | Associated Project         |
-|-------------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis            | <a href="https://google.com">Detection Lab</a> |
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a> |
-| Security Automation with Shuffle SOAR           | SOC Automation Lab |
-| Incident Response Planning and Execution        | SOC Automation Lab |
-| Case Management with TheHive                    | SOC Automation Lab |
-| Scripting and Automation for Threat Mitigation  | SOC Automation Lab |
-| NIST CSF Incident Analysis (Identify/Protect/Detect/Respond/Recover) | <a href="./projects/dos-incident-nist-csf.md">Network DoS Incident Analysis Using NIST CSF</a> |
-| Network Security Hardening (Firewall rules, rate limiting, IDS/IPS) | <a href="./projects/dos-incident-nist-csf.md">Network DoS Incident Analysis Using NIST CSF</a> |
+| Skill                                                                 | Associated Project                                                                 |
+|-----------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| NIST CSF Incident Analysis (Identify/Protect/Detect/Respond/Recover)  | <a href="./projects/dos-incident-nist-csf.md">Network DoS Incident Analysis Using NIST CSF</a> |
+| Incident Response Planning and Execution (NIST SP 800-61)              | <a href="./projects/ransomware-incident-response.md">Ransomware Incident Response & Forensic Analysis</a> |
+| Log Analysis & Threat Detection (Windows/Linux)                        | <a href="./projects/ransomware-incident-response.md">Ransomware Incident Response & Forensic Analysis</a> |
+| Digital Forensics & Evidence Handling (Chain of Custody, Volatility)  | <a href="./projects/autopsy-forensics.md">Digital Forensics Tool Evaluation (Autopsy)</a> |
+| Web Application Vulnerability Assessment (OWASP Top 10)               | <a href="./projects/web-vuln-assessment.md">Web Application Vulnerability Assessment</a> |
+| Network Security Hardening (Firewall rules, rate limiting, IDS/IPS)   | <a href="./projects/dos-incident-nist-csf.md">Network DoS Incident Analysis Using NIST CSF</a> |
+
+---
 
 ## Tools
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
 
-### Network
+### Network & Traffic Analysis
 <div>
     <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Nmap-004C99?&style=for-the-badge&logo=Nmap&logoColor=white" />
 </div>
 
-### Endpoint
+### Security Testing & Assessment
 <div>
-    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Velociraptor-4B275F?&style=for-the-badge&logo=Velociraptor&logoColor=white" />
+    <img src="https://img.shields.io/badge/-OWASP%20ZAP-2F7D32?&style=for-the-badge&logo=OWASP&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Nikto-000000?&style=for-the-badge&logoColor=white" />
+    <img src="https://img.shields.io/badge/-SQLMap-CC0000?&style=for-the-badge&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Metasploit-1F1F1F?&style=for-the-badge&logo=metasploit&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Nessus-00C176?&style=for-the-badge&logo=tenable&logoColor=white" />
+    <img src="https://img.shields.io/badge/-OpenVAS-2F7D32?&style=for-the-badge&logoColor=white" />
 </div>
 
-### SIEM
+### Digital Forensics
 <div>
-    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Autopsy-4B0082?&style=for-the-badge&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Kali%20Linux-557C94?&style=for-the-badge&logo=kalilinux&logoColor=white" />
 </div>
+
+---
 
 ## Certifications
-[Provide certifications that you have obtained. Use ChatGPT to help create the link - Remove this afterwards]]
 <div>
-<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-Network%2B-007ACC?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-A%2B-4D4D4D?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-CDSA-006400?&style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/-CCD-000080?&style=for-the-badge&logoColor=white" />
+    <img src="https://img.shields.io/badge/-CompTIA%20Security%2B%20(In%20Progress)-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Google%20Cybersecurity%20Certificate%20(In%20Progress)-4285F4?&style=for-the-badge&logo=google&logoColor=white" />
 </div>
 
+---
+
 ## Projects
-- Detection Lab
-- SOC Automation Project
-- <a href="./projects/dos-incident-nist-csf.md">Network DoS Incident Analysis Using NIST CSF</a>
+- <a href="./projects/dos-incident-nist-csf.md">Network DoS Incident Analysis Using NIST CSF</a>  
+- <a href="./projects/ransomware-incident-response.md">Ransomware Incident Response & Forensic Analysis</a>  
+- <a href="./projects/web-vuln-assessment.md">Web Application Vulnerability Assessment (Penetration Testing)</a>  
+- <a href="./projects/autopsy-forensics.md">Digital Forensics Tool Evaluation (Autopsy)</a>  
