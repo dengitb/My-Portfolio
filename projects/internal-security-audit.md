@@ -1,7 +1,7 @@
 # Internal Security Audit & Compliance Assessment (Simulated Enterprise)
 
 ## Project Overview  
-This case study documents an internal security audit conducted within a simulated enterprise environment to evaluate organizational security posture and compliance readiness. The objective was to review the audit scope and risk assessment, assess existing controls across administrative, technical, and physical domains, and identify compliance gaps related to payment card data and customer privacy. The final deliverable was a completed controls and compliance checklist with prioritized recommendations to reduce risk and improve business continuity.
+This case study documents an internal security audit conducted within a simulated enterprise environment to evaluate organizational security posture and compliance readiness. The objective was to review the audit scope and risk assessment, assess existing controls across administrative, technical, and physical domains, and identify compliance gaps related to payment card data and customer privacy. The final deliverable was a **completed controls and compliance checklist** with prioritized recommendations to reduce risk and improve business continuity.
 
 ---
 
@@ -15,7 +15,7 @@ This case study documents an internal security audit conducted within a simulate
 ## Audit Scope and Objectives  
 The audit scope and initial risk posture were defined using the organization’s scope, goals, and risk assessment documentation:
 
-- <a href="./artifacts/botium-toys-scope-goals-risk-assessment.md">Botium Toys: Scope, Goals, and Risk Assessment Report</a>
+- <a href="./artifacts/botium-toys-scope-goals-risk-assessment.md">Scope, Goals, and Risk Assessment Report</a>
 
 **Scope:**  
 - Employee devices and endpoints  
@@ -85,14 +85,14 @@ Physical protections were assessed against operational control categories to val
 ---
 
 ## Compliance Assessment & Audit Deliverables  
-Compliance readiness and control implementation were documented using a structured assessment checklist:
+Compliance readiness and control implementation were documented using the **completed audit checklist** produced during this engagement:
 
-- <a href="./artifacts/controls-and-compliance-checklist.md">Controls and Compliance Checklist (Completed Audit Deliverable)</a>
+- <a href="./artifacts/controls-and-compliance-checklist.md">Completed Controls and Compliance Checklist</a>
 
 **Assessment Focus Areas:**  
-- Payment data protection and access control practices  
-- Data privacy and breach notification readiness  
-- Confidentiality, integrity, and availability of systems and data  
+- Payment data protection and access control practices (PCI DSS)  
+- Data privacy and breach notification readiness (GDPR)  
+- Confidentiality, integrity, and availability of systems and data (SOC Trust Principles)  
 
 ---
 
@@ -114,7 +114,7 @@ Compliance readiness and control implementation were documented using a structur
 **Skills Demonstrated:**  
 - Internal security auditing and control evaluation  
 - Risk analysis and prioritization  
-- Compliance gap assessment (payment security and data privacy)  
+- Compliance gap assessment (PCI DSS, GDPR, SOC)  
 - Security documentation and stakeholder-focused recommendations  
 
 ---
