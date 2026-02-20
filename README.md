@@ -71,8 +71,8 @@ I am a final-year cybersecurity master’s student graduating in May 2026 with h
 
 ## Education  
 **University of Maryland Global Campus (UMGC)**  
-Relevant Coursework: CTCH 665 – Digital Forensics & Incident Response; 
-CTCH 685 – Cybersecurity for Software
+- Relevant Coursework: CTCH 665 – Digital Forensics & Incident Response; 
+- CTCH 685 – Cybersecurity for Software
 
 ---
 
