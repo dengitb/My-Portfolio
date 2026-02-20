@@ -14,13 +14,13 @@ I am a final-year cybersecurity master’s student graduating in May 2026 with h
 
 ## Core Skills
 
-| Domain                                  | Skills & Focus                                                                 | Related Case Study |
-|-----------------------------------------|----------------------------------------------------------------------------------|--------------------|
-| Incident Response (NIST CSF / SP 800-61) | Identify, Protect, Detect, Respond, Recover; playbooks; reporting                | <a href="./projects/dos-incident-nist-csf.md">Network DoS Incident Analysis</a> |
-| Threat Detection & Log Analysis         | Windows/Linux logs, IOCs, alert triage, basic IDS concepts                        | <a href="./projects/ransomware-incident-response.md">Ransomware IR Case Study</a> |
-| Digital Forensics (DFIR)                | Evidence handling, chain of custody, order of volatility, Autopsy analysis       | <a href="./projects/autopsy-forensics.md">Autopsy Forensics Evaluation</a> |
-| Web App Security & Vulnerability Mgmt   | OWASP Top 10, scanning, exploitation validation, reporting                       | <a href="./projects/web-vuln-assessment.md">Web Application Vulnerability Assessment</a> |
-| Network Security Hardening              | Firewall rules, ICMP rate limiting, IDS/IPS basics                               | <a href="./projects/dos-incident-nist-csf.md">Network DoS Incident Analysis</a> |
+| Domain                                  | Skills & Focus                                                                 | Example Project |
+|-----------------------------------------|----------------------------------------------------------------------------------|-----------------|
+| Incident Response (NIST CSF / SP 800-61) | Identify, Protect, Detect, Respond, Recover; playbooks; reporting                | Network DoS Incident Analysis |
+| Threat Detection & Log Analysis         | Windows/Linux logs, IOCs, alert triage, basic IDS concepts                        | Ransomware IR Case Study |
+| Digital Forensics (DFIR)                | Evidence handling, chain of custody, order of volatility, Autopsy analysis       | Autopsy Forensics Evaluation |
+| Web App Security & Vulnerability Mgmt   | OWASP Top 10, scanning, exploitation validation, reporting                       | Web Application Vulnerability Assessment |
+| Network Security Hardening              | Firewall rules, ICMP rate limiting, IDS/IPS basics                               | Network DoS Incident Analysis |
 
 ---
 
