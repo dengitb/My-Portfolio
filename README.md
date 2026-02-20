@@ -1,6 +1,6 @@
 # Denis Souop — Cybersecurity Portfolio (SOC & Incident Response Focus)
 
-Welcome! This portfolio highlights my cybersecurity coursework, hands-on projects, and technical experience across Security Operations (SOC), Digital Forensics & Incident Response (DFIR), vulnerability assessment, and secure software practices in academic and simulated enterprise environments.
+Welcome! This portfolio highlights my cybersecurity coursework, hands-on projects, and technical experience across Security Operations (SOC), Digital Forensics & Incident Response (DFIR), vulnerability assessment, and governance, risk, and compliance (GRC) within academic and simulated enterprise environments.
 
 <a href="https://linkedin.com/in/yourname"><img src="https://img.shields.io/badge/LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://github.com/yourname"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
@@ -8,19 +8,20 @@ Welcome! This portfolio highlights my cybersecurity coursework, hands-on project
 ---
 
 ## About Me  
-I am a final-year cybersecurity master’s student graduating in May 2026 with hands-on experience in incident response, digital forensics, and security operations in academic and simulated enterprise environments. I am driven by protecting organizations and people through practical threat detection, log analysis, and NIST-aligned response practices. I aim to contribute to building resilient security operations that reduce risk and improve organizational security posture.
+I am a final-year cybersecurity master’s student graduating in May 2026 with hands-on experience in incident response, digital forensics, vulnerability assessment, and internal security auditing in simulated enterprise environments. I am motivated by protecting organizations and people through practical threat detection, log analysis, and structured security assessments. I aim to contribute to building resilient security operations that reduce risk and strengthen organizational security posture.
 
 ---
 
 ## Core Skills
 
-| Domain                                       | Skills & Focus                                                                                                                        |
-|----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| SOC & Incident Response (NIST CSF / SP 800-61) | Incident triage, containment and recovery workflows, NIST CSF (Identify–Protect–Detect–Respond–Recover), incident documentation/reporting |
-| Threat Detection & Log Analysis              | Windows/Linux event log analysis, IOC identification, alert triage, basic IDS concepts, traffic pattern review                         |
-| Digital Forensics (DFIR)                     | Evidence collection and preservation, chain of custody, order of volatility, disk image analysis with Autopsy                         |
-| Web Application Security & Vulnerability Mgmt| OWASP Top 10, vulnerability scanning, validation of findings (SQLi/XSS basics), remediation reporting                                  |
-| Network Security Hardening                   | Firewall rule review, ICMP rate limiting, IDS/IPS fundamentals, basic network traffic inspection                                       |
+| Domain                                        | Skills & Focus                                                                                                                                                |
+|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SOC & Incident Response                       | Incident triage, containment and recovery workflows, NIST CSF (Identify–Protect–Detect–Respond–Recover), incident documentation and response playbooks         |
+| Threat Detection & Log Analysis               | Windows/Linux event log analysis, IOC identification, alert triage, basic IDS concepts, network traffic pattern review                                        |
+| Digital Forensics (DFIR)                      | Evidence collection and preservation, chain of custody, order of volatility, disk image analysis with Autopsy                                                  |
+| Web Application Security & Vulnerability Mgmt | OWASP Top 10, vulnerability scanning, validation of findings (SQLi/XSS fundamentals), remediation reporting                                                    |
+| Governance, Risk & Compliance (Internal Audit)| Administrative, technical, and physical controls assessment, compliance gap analysis (payment security, data privacy), risk prioritization and recommendations |
+| Network Security Hardening                    | Firewall rule review, ICMP rate limiting, IDS/IPS fundamentals, basic network traffic inspection                                                               |
 
 ---
 
@@ -29,6 +30,7 @@ I am a final-year cybersecurity master’s student graduating in May 2026 with h
 - <a href="./projects/ransomware-incident-response.md">Ransomware Incident Response & Forensic Analysis</a>  
 - <a href="./projects/web-vuln-assessment.md">Web Application Vulnerability Assessment (Penetration Testing)</a>  
 - <a href="./projects/autopsy-forensics.md">Digital Forensics Tool Evaluation (Autopsy)</a>  
+- <a href="./projects/internal-security-audit.md">Internal Security Audit & Compliance Assessment (Simulated Enterprise)</a>  
 
 ---
 
