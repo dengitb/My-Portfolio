@@ -13,12 +13,19 @@ I am a final-year cybersecurity master’s student graduating in May 2026 with h
 ---
 
 ## Core Skills
-
-- **Incident Response & SOC Operations:** NIST CSF, NIST SP 800-61, alert triage, incident documentation, response playbooks  
+- **SOC & Incident Response:** NIST CSF, NIST SP 800-61, alert triage, incident documentation, response playbooks  
 - **Threat Detection & Log Analysis:** Windows/Linux event logs, IOC identification, basic IDS concepts  
 - **Digital Forensics (DFIR):** Chain of custody, order of volatility, disk analysis with Autopsy  
 - **Web Application Security:** OWASP Top 10, vulnerability scanning, exploitation validation, reporting  
 - **Network Security Hardening:** Firewall rules, ICMP rate limiting, IDS/IPS basics  
+
+---
+
+## Featured Projects  
+- <a href="./projects/dos-incident-nist-csf.md">Network DoS Incident Response & Analysis (NIST CSF)</a>  
+- <a href="./projects/ransomware-incident-response.md">Ransomware Incident Response & Forensic Analysis</a>  
+- <a href="./projects/web-vuln-assessment.md">Web Application Vulnerability Assessment (Penetration Testing)</a>  
+- <a href="./projects/autopsy-forensics.md">Digital Forensics Tool Evaluation (Autopsy)</a>  
 
 ---
 
@@ -58,14 +65,6 @@ I am a final-year cybersecurity master’s student graduating in May 2026 with h
 
 ---
 
-## Projects  
-- <a href="./projects/dos-incident-nist-csf.md">Network DoS Incident Response & Analysis (NIST CSF)</a>  
-- <a href="./projects/ransomware-incident-response.md">Ransomware Incident Response & Forensic Analysis</a>  
-- <a href="./projects/web-vuln-assessment.md">Web Application Vulnerability Assessment (Penetration Testing)</a>  
-- <a href="./projects/autopsy-forensics.md">Digital Forensics Tool Evaluation (Autopsy)</a>  
-
----
-
 ## Education  
 **University of Maryland Global Campus (UMGC)**  
 Relevant Coursework:  
@@ -74,7 +73,7 @@ Relevant Coursework:
 
 ---
 
-## How to Use This Portfolio  
+## About This Portfolio  
 Each project includes:
 - Incident or assessment overview  
 - Technical approach and tools used  
