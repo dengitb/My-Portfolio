@@ -26,7 +26,7 @@ Key risk themes identified in the report included broad internal access to sensi
 
 To ensure a consistent and structured review, I used industry-standard control categories (administrative, technical, and physical controls), aligned with common enterprise security and audit practices, to determine whether controls were present and where gaps existed:
 
-- [Control Categories (Administrative, Technical, Physical)]([artifacts/control-categories.md](https://docs.google.com/document/d/1HLnlgIM76ryHq5CkrM7nhf_HwiuAOZhIsTqAI-7a7u4/edit?usp=sharing))
+- [Control Categories (Administrative, Technical, Physical)](https://docs.google.com/document/d/1HLnlgIM76ryHq5CkrM7nhf_HwiuAOZhIsTqAI-7a7u4/edit?usp=sharing))
 
 Using these categories, I assessed controls as **preventative, detective, corrective, or deterrent**, then documented results in the audit checklist.
 
