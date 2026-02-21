@@ -20,20 +20,19 @@ Before the audit began, the IT manager:
 
 I began by reviewing the audit scope, goals, asset inventory, and risk assessment prepared by the IT manager:
 
-- [Scope, Goals, Asset Inventory, and Risk Assessment Report](./artifacts/botium-toys-scope-goals-risk-assessment.md)
 - [Scope, Goals, Asset Inventory, and Risk Assessment Report](https://docs.google.com/document/d/13VUAUTGZIhw9iAWh7tandFvTIW4C9yyjTgSFozs_EAE/edit?usp=sharing)
 
 Key risk themes identified in the report included broad internal access to sensitive data, lack of encryption for payment data, missing access controls (least privilege and separation of duties), missing intrusion detection capabilities (IDS), and lack of backups and disaster recovery planning.
 
 To ensure a consistent and structured review, I used industry-standard control categories (administrative, technical, and physical controls), aligned with common enterprise security and audit practices, to determine whether controls were present and where gaps existed:
 
-- [Control Categories (Administrative, Technical, Physical)](./artifacts/control-categories.md)
+- [Control Categories (Administrative, Technical, Physical)]([artifacts/control-categories.md](https://docs.google.com/document/d/1HLnlgIM76ryHq5CkrM7nhf_HwiuAOZhIsTqAI-7a7u4/edit?usp=sharing))
 
 Using these categories, I assessed controls as **preventative, detective, corrective, or deterrent**, then documented results in the audit checklist.
 
 I performed the internal audit by completing the controls and compliance checklist based on evidence described in the risk assessment report:
 
-- [Completed Controls and Compliance Checklist](./artifacts/controls-and-compliance-checklist.md)
+- [Completed Controls and Compliance Checklist](https://docs.google.com/document/d/1u0g6rSr_OEs9WwO8c-rLYlvu0AGbDO2sh0ZRtT5rqAo/edit?usp=sharing)
 
 This checklist captured whether key controls (e.g., encryption, IDS, backups, least privilege, password management) and compliance best practices (PCI DSS, GDPR, SOC trust principles) were currently met.
 
