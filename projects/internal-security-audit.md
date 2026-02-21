@@ -18,20 +18,23 @@ Before the audit began, the IT manager:
 
 ## Technical Approach & Tools Used
 
-**Inputs Reviewed (Provided by IT Manager):**
+I began by reviewing the audit scope, goals, asset inventory, and risk assessment prepared by the IT manager:
+
 - [Scope, Goals, Asset Inventory, and Risk Assessment Report](./artifacts/botium-toys-scope-goals-risk-assessment.md)
 
-**Audit Methodology:**
-To ensure a consistent and structured assessment, I used industry-standard control categories (**administrative, technical, and physical controls**) aligned with common enterprise security and audit practices:
+Key risk themes identified in the report included broad internal access to sensitive data, lack of encryption for payment data, missing access controls (least privilege and separation of duties), missing intrusion detection capabilities (IDS), and lack of backups and disaster recovery planning.
+
+To ensure a consistent and structured review, I used industry-standard control categories (administrative, technical, and physical controls), aligned with common enterprise security and audit practices, to determine whether controls were present and where gaps existed:
 
 - [Control Categories (Administrative, Technical, Physical)](./artifacts/control-categories.md)
 
-Controls were evaluated across **preventative, detective, corrective, and deterrent** types.
+Using these categories, I assessed controls as **preventative, detective, corrective, or deterrent**, then documented results in the audit checklist.
 
-**Primary Deliverable:**
+I performed the internal audit by completing the controls and compliance checklist based on evidence described in the risk assessment report:
+
 - [Completed Controls and Compliance Checklist](./artifacts/controls-and-compliance-checklist.md)
 
-This checklist documented the presence or absence of key controls (e.g., encryption, IDS, backups, least privilege, password management) and mapped findings to compliance expectations (PCI DSS, GDPR, SOC concepts).
+This checklist captured whether key controls (e.g., encryption, IDS, backups, least privilege, password management) and compliance best practices (PCI DSS, GDPR, SOC trust principles) were currently met.
 
 ---
 
@@ -71,7 +74,7 @@ This checklist documented the presence or absence of key controls (e.g., encrypt
 - **Availability:** Impacted by absence of backups and disaster recovery planning  
 
 **Impact:**  
-These gaps significantly increased the organization’s exposure to **data breaches, ransomware incidents, operational downtime, and potential regulatory penalties**.
+These gaps significantly increased the organization’s exposure to data breaches, ransomware incidents, operational downtime, and potential regulatory penalties.
 
 ---
 
@@ -79,7 +82,7 @@ These gaps significantly increased the organization’s exposure to **data breac
 
 ### Lessons Learned
 - Asset visibility and access control are foundational to reducing organizational risk  
-- Detection and recovery capabilities (IDS, backups, DR) are critical to minimizing business impact during incidents  
+- Detection and recovery capabilities (IDS, backups, DR) are critical for minimizing business impact during incidents  
 - Security audits are most effective when findings are translated into prioritized, actionable remediation steps  
 
 ### Recommended Security Improvements
