@@ -33,7 +33,7 @@ Key risk themes identified in the report included broad internal access to sensi
 ---
 
 ## Audit Method (How I Performed the Assessment)  
-To ensure a consistent and structured review, I used the provided control definitions to evaluate whether controls were present and where gaps existed:
+To ensure a consistent and structured review, I used industry-standard control categories (administrative, technical, and physical controls), aligned with common enterprise security and audit practices, to determine whether controls were present and where gaps existed:
 
 - <a href="./artifacts/control-categories.md">Control Categories (Administrative, Technical, Physical)</a>
 
