@@ -1,82 +1,101 @@
 # Internal IT Security Audit & Compliance Review (Simulated Enterprise)
 
-## Scenario Context  
-This project is based on a fictional organization, **Botium Toys**, a small U.S. toy manufacturer/retailer with one physical location (office, storefront, and warehouse) and a growing international e-commerce presence. As online sales expanded, the IT department faced increasing pressure to support global customers while maintaining secure payment processing and protecting customer data.
+## Incident / Assessment Overview
 
-To address compliance and operational risk, the IT manager initiated an **internal IT audit**. Before the audit work began, the IT manager:
+This project presents an internal IT security audit conducted in a simulated enterprise environment based on a fictional organization, **Botium Toys**, a small U.S. toy manufacturer/retailer with one physical location (office, storefront, and warehouse) and a growing international e-commerce presence.
+
+As online sales expanded, the organization faced increasing risk related to **payment processing, customer data protection, and regulatory compliance**. To address these risks, the IT manager initiated an **internal IT audit** to assess the organization’s current security posture, identify control gaps, and evaluate compliance readiness.
+
+Before the audit began, the IT manager:
 - Applied the **NIST Cybersecurity Framework (NIST CSF)** to guide the security program review  
 - Defined the **audit scope and goals**  
 - Documented the **assets managed by IT**  
-- Completed a **risk assessment** to summarize potential risk exposure and possible fines related to gaps in controls and compliance
+- Completed a **risk assessment** to summarize potential risk exposure and possible fines  
 
-**My task:** Review the IT manager’s scope, goals, and risk assessment report, then perform the internal audit by completing a **Controls and Compliance Checklist** to determine which controls and best practices were in place and which required improvement.
-
----
-
-## Project Overview  
-This case study documents the internal audit work I performed after reviewing the IT manager’s documentation. The objective was to evaluate control coverage across **administrative/managerial**, **technical**, and **physical/operational** domains, and assess compliance readiness for:
-- **Payment card data protection** (PCI DSS)
-- **Customer privacy obligations** (GDPR)
-- **Security trust principles** (SOC concepts: confidentiality, integrity, availability)
-
-The final deliverable was a **completed controls and compliance checklist** with prioritized security recommendations.
+**My role:** Review the IT manager’s scope, goals, and risk assessment report, then perform the internal audit by completing a **Controls and Compliance Checklist** to determine which controls and best practices were in place and which required improvement.
 
 ---
 
-## Inputs Reviewed (Provided by IT Manager)  
-I began by reviewing the audit scope, goals, asset inventory, and risk assessment prepared by the IT manager:
+## Technical Approach & Tools Used
 
-- <a href="./artifacts/botium-toys-scope-goals-risk-assessment.md">Scope, Goals, Asset Inventory, and Risk Assessment Report</a>
+**Inputs Reviewed (Provided by IT Manager):**
+- [Scope, Goals, Asset Inventory, and Risk Assessment Report](./artifacts/botium-toys-scope-goals-risk-assessment.md)
 
-Key risk themes identified in the report included broad internal access to sensitive data, lack of encryption for payment data, missing access controls (least privilege / separation of duties), missing IDS, and lack of backups/disaster recovery planning.
+**Audit Methodology:**
+To ensure a consistent and structured assessment, I used industry-standard control categories (**administrative, technical, and physical controls**) aligned with common enterprise security and audit practices:
 
----
+- [Control Categories (Administrative, Technical, Physical)](./artifacts/control-categories.md)
 
-## Audit Method (How I Performed the Assessment)  
-To ensure a consistent and structured review, I used industry-standard control categories (administrative, technical, and physical controls), aligned with common enterprise security and audit practices, to determine whether controls were present and where gaps existed:
+Controls were evaluated across **preventative, detective, corrective, and deterrent** types.
 
-- <a href="./artifacts/control-categories.md">Control Categories (Administrative, Technical, Physical)</a>
+**Primary Deliverable:**
+- [Completed Controls and Compliance Checklist](./artifacts/controls-and-compliance-checklist.md)
 
-Using these categories, I assessed controls as preventative, detective, corrective, or deterrent, then documented results in the audit checklist.
-
----
-
-## Primary Deliverable (Audit Checklist Completed)  
-I performed the internal audit by completing the controls and compliance checklist based on evidence described in the risk assessment report:
-
-- <a href="./artifacts/controls-and-compliance-checklist.md">Completed Controls and Compliance Checklist</a>
-
-This checklist captured whether key controls (e.g., encryption, IDS, backups, least privilege, password management) and compliance best practices (PCI DSS/GDPR/SOC concepts) were currently met.
+This checklist documented the presence or absence of key controls (e.g., encryption, IDS, backups, least privilege, password management) and mapped findings to compliance expectations (PCI DSS, GDPR, SOC concepts).
 
 ---
 
-## Summary of Findings  
+## Key Findings & Impact
 
-### Controls — High-Level Results  
-- **Administrative/Managerial:** Gaps in least privilege, separation of duties, password policy strength/enforcement, centralized password management, and disaster recovery planning  
-- **Technical:** Firewall and antivirus were present, but gaps existed in IDS, encryption for sensitive data, and backups  
-- **Physical/Operational:** Locks, CCTV, and fire detection/prevention were present and provided a baseline level of facility protection  
+### Control Gaps Identified
 
-### Compliance — High-Level Results  
-- **PCI DSS:** Gaps in restricting access to cardholder data, securing storage/processing environments, encryption, and password management practices  
-- **GDPR:** Breach notification planning existed, but improvements were needed in data classification/inventory and access controls to better protect EU customer data  
-- **SOC Concepts (CIA):** Confidentiality and availability were most impacted due to broad access, lack of encryption, and lack of backups/DR planning
+**Administrative / Managerial**
+- No enforcement of least privilege  
+- No separation of duties  
+- Weak password policy enforcement  
+- No centralized password management  
+- No disaster recovery planning  
+
+**Technical**
+- Firewall and antivirus were present  
+- No intrusion detection system (IDS)  
+- No encryption for sensitive payment data  
+- No backups for recovery  
+
+**Physical / Operational**
+- Locks, CCTV, and fire detection/prevention were present and provided baseline facility protection  
+
+### Compliance Gaps
+
+**PCI DSS**
+- Inadequate restriction of access to cardholder data  
+- Lack of encryption  
+- Weak password management practices  
+
+**GDPR**
+- Breach notification planning existed  
+- Asset classification and access controls required improvement  
+
+**SOC (CIA Principles)**
+- **Confidentiality:** Impacted by broad access and lack of encryption  
+- **Availability:** Impacted by absence of backups and disaster recovery planning  
+
+**Impact:**  
+These gaps significantly increased the organization’s exposure to **data breaches, ransomware incidents, operational downtime, and potential regulatory penalties**.
 
 ---
 
-## Recommendations (Prioritized)  
-- Implement least privilege and separation of duties for systems handling payment data and PII  
-- Encrypt stored/processed payment card data and sensitive customer information  
-- Deploy IDS to improve detection and monitoring capability  
-- Establish backups and a disaster recovery plan to support business continuity  
-- Strengthen password policy requirements and enforce them with centralized password management  
-- Formalize asset inventory and classification to reduce unknown exposure
+## Lessons Learned & Security Improvements
+
+### Lessons Learned
+- Asset visibility and access control are foundational to reducing organizational risk  
+- Detection and recovery capabilities (IDS, backups, DR) are critical to minimizing business impact during incidents  
+- Security audits are most effective when findings are translated into prioritized, actionable remediation steps  
+
+### Recommended Security Improvements
+- Enforce least privilege and separation of duties  
+- Encrypt payment card data and sensitive customer information  
+- Deploy IDS for improved detection and monitoring  
+- Implement regular backups and a formal disaster recovery plan  
+- Strengthen and enforce password policies with centralized management  
+- Formalize asset inventory and classification processes  
 
 ---
 
-## Skills Demonstrated  
-- Internal IT audit execution using a structured checklist  
+## Skills Demonstrated
+
+- Internal IT audit execution using structured assessment checklists  
 - Control evaluation across administrative, technical, and physical domains  
-- Risk-based prioritization of remediation actions  
-- Compliance gap analysis (PCI DSS, GDPR)  
-- Clear security documentation and stakeholder-ready recommendations
+- Risk-based remediation prioritization  
+- Compliance gap analysis (PCI DSS, GDPR concepts)  
+- Professional security documentation and stakeholder-ready recommendations  
