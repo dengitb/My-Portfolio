@@ -1,58 +1,83 @@
-# Network DoS Incident Response and Analysis (NIST CSF)
+# Network DoS / DDoS Incident Response and Analysis (NIST CSF)
 
 ## Incident / Assessment Overview  
-This case study documents the analysis and response to a network Denial of Service (DoS) incident using the National Institute of Standards and Technology Cybersecurity Framework (NIST CSF). The objective was to assess the impact of an ICMP flood attack, identify control gaps, and define security improvements aligned with NIST best practices. The incident disrupted internal network services for approximately two hours, impacting business operations and service delivery.
+This project documents the analysis of a network security incident in a simulated enterprise environment involving a Distributed Denial of Service (DDoS) attack. The organization experienced a service disruption when all internal network services suddenly stopped responding due to a flood of incoming ICMP packets. The incident impacted availability of critical network resources and required immediate containment and recovery actions.
 
-**Organization Type:** Multimedia services company providing web design, graphic design, and social media marketing to small businesses.  
-
-**Incident Summary:**  
-- **Attack Type:** Denial of Service (DoS) via ICMP flood  
-- **Attack Vector:** High-volume ICMP traffic allowed through an unconfigured firewall  
-- **Systems Impacted:** Internal network services and shared resources  
-- **Duration:** ~2 hours  
-- **Root Cause:** Firewall misconfiguration permitting unrestricted ICMP traffic  
+The objective of this assessment was to analyze the incident using the **National Institute of Standards and Technology Cybersecurity Framework (NIST CSF)** and develop a structured response and improvement plan aligned with industry best practices.
 
 ---
 
 ## Technical Approach & Tools Used  
-I analyzed the incident using the **NIST Cybersecurity Framework (Identify, Protect, Detect, Respond, Recover)** to structure response actions and remediation planning:
 
-- **Identify:** Confirmed ICMP flood activity, assessed impact to internal services, and identified firewall configuration weaknesses and limited pre-incident monitoring.  
-- **Protect:** Implemented ICMP rate limiting on the firewall and established baseline firewall configuration standards.  
-- **Detect:** Enabled source IP verification and network monitoring to identify spoofed traffic and abnormal ICMP patterns.  
-- **Respond:** Isolated affected services, restored critical systems first, reviewed logs for indicators of abnormal activity, and documented response actions.  
-- **Recover:** Restored services to normal operations, validated network stability, and updated recovery procedures and response playbooks.
+### Framework & Methodology  
+The incident was analyzed using the five NIST CSF functions:  
+- **Identify**  
+- **Protect**  
+- **Detect**  
+- **Respond**  
+- **Recover**
 
-**Tools & Technologies:**  
-- Network firewall (ICMP rate limiting, source IP verification)  
-- IDS/IPS  
+This framework was used to assess root cause, containment actions, and long-term security improvements.
+
+### Technical Controls Implemented  
+- Network firewall (ICMP rate limiting)  
+- Source IP address verification on firewall rules  
+- Intrusion Detection/Prevention System (IDS/IPS)  
 - Network monitoring and logging tools  
-- NIST Cybersecurity Framework (CSF)
+
+### NIST CSF Mapping  
+
+**Identify**  
+A malicious actor (or actors) targeted the organization with an ICMP flood attack that disrupted the entire internal network. Critical network resources were impacted and required prioritization for restoration.
+
+**Protect**  
+The cybersecurity team implemented firewall rate-limiting rules for ICMP traffic and deployed IDS/IPS controls to filter malicious ICMP packets based on suspicious characteristics.
+
+**Detect**  
+Source IP address verification was configured on firewall rules to detect spoofed IP addresses. Network monitoring software was deployed to identify abnormal ICMP traffic patterns and availability-impacting events.
+
+**Respond**  
+Affected services were isolated to prevent further disruption. Non-critical services were taken offline to prioritize restoration of critical systems. Network logs were analyzed to identify indicators of attack activity, and the incident was documented and escalated to management for visibility and improvement planning.
+
+**Recover**  
+Critical network services were restored first to return essential business operations to normal. Non-critical services were reintroduced after traffic stabilized. Firewall rules were updated to block future ICMP flood attempts, and recovery procedures were documented for future incident handling.
 
 ---
 
 ## Key Findings & Impact  
-**Key Findings:**  
-- Firewall misconfiguration significantly increased exposure to volumetric network-layer attacks.  
-- Limited detection and monitoring delayed early identification of abnormal ICMP traffic.  
-- Lack of predefined traffic rate controls increased the operational impact of the attack.
 
-**Impact:**  
-- Internal network services were unavailable for approximately two hours.  
-- Business operations and service delivery were disrupted.  
-- Incident response processes were ad hoc prior to formal documentation and playbook updates.
+### Key Findings  
+- Firewall misconfiguration allowed unrestricted ICMP traffic into the network  
+- Lack of ICMP rate limiting increased susceptibility to volumetric network attacks  
+- Limited pre-incident monitoring reduced early detection capability  
+
+### Impact  
+- Complete disruption of internal network services  
+- Temporary outage of critical business systems  
+- Elevated operational risk due to availability failures  
+
+These gaps significantly increased the organization’s exposure to denial-of-service attacks and business disruption.
 
 ---
 
 ## Lessons Learned & Security Improvements  
-**Lessons Learned:**  
-- Firewall configuration management is a critical control for mitigating network-layer attacks.  
-- Proactive monitoring and traffic rate controls materially reduce the operational impact of DoS events.  
-- A structured framework such as NIST CSF improves consistency and effectiveness in incident response and recovery.
 
-**Security Improvements Implemented / Recommended:**  
-- Enforce firewall configuration baselines and change management procedures  
-- Implement ICMP rate limiting and traffic filtering by default  
-- Strengthen network monitoring and alert thresholds for abnormal traffic patterns  
-- Maintain documented incident response and recovery playbooks to reduce downtime  
-- Periodically test DoS response procedures through tabletop or simulated exercises  
+### Lessons Learned  
+- Firewall configuration management is a critical control for mitigating network-layer attacks.  
+- Proactive monitoring and traffic rate controls materially reduce the operational impact of DoS/DDoS events.  
+- Applying a structured framework such as NIST CSF improves consistency, communication, and effectiveness in incident response.
+
+### Security Improvements Implemented  
+- Enforced ICMP rate limiting at the firewall  
+- Deployed IDS/IPS to improve detection and filtering of malicious traffic  
+- Implemented network monitoring to detect abnormal traffic patterns  
+- Documented response and recovery procedures for availability incidents  
+
+---
+
+## Skills Demonstrated  
+- Incident analysis using NIST Cybersecurity Framework (CSF)  
+- Network security hardening and firewall rule design  
+- IDS/IPS deployment and monitoring strategy  
+- Incident response documentation and recovery planning  
+- Availability risk assessment and mitigation
