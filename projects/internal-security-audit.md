@@ -21,6 +21,7 @@ Before the audit began, the IT manager:
 I began by reviewing the audit scope, goals, asset inventory, and risk assessment prepared by the IT manager:
 
 - [Scope, Goals, Asset Inventory, and Risk Assessment Report](./artifacts/botium-toys-scope-goals-risk-assessment.md)
+- Botium.Toys_.Scope.goals.and.risk.assessment.report.docx
 
 Key risk themes identified in the report included broad internal access to sensitive data, lack of encryption for payment data, missing access controls (least privilege and separation of duties), missing intrusion detection capabilities (IDS), and lack of backups and disaster recovery planning.
 
