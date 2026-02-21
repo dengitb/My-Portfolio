@@ -24,7 +24,7 @@ This case study documents the analysis of a network security incident using the 
 
 ---
 
-## Analysis Aligned to the NIST Cybersecurity Framework (CSF)
+## Analysis Aligned to the NIST Cybersecurity Framework (CSF) 
 
 ### Identify  
 - Confirmed malicious ICMP flood activity impacting the internal network.  
