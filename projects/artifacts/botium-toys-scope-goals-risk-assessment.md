@@ -1,1 +1,1 @@
-[Botium Toys_ Scope, goals, and risk assessment report.docx](https://github.com/user-attachments/files/25454825/Botium.Toys_.Scope.goals.and.risk.assessment.report.docx)
+https://docs.google.com/document/d/13VUAUTGZIhw9iAWh7tandFvTIW4C9yyjTgSFozs_EAE/edit?usp=drive_link
