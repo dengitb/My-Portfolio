@@ -22,6 +22,8 @@ I began by reviewing the audit scope, goals, asset inventory, and risk assessmen
 
 - [Scope, Goals, Asset Inventory, and Risk Assessment Report](./artifacts/botium-toys-scope-goals-risk-assessment.md)
 - (./https://docs.google.com/document/d/13VUAUTGZIhw9iAWh7tandFvTIW4C9yyjTgSFozs_EAE/edit?usp=drive_link)
+- [Scope, Goals, Asset Inventory, and Risk Assessment Report](./https://docs.google.com/document/d/13VUAUTGZIhw9iAWh7tandFvTIW4C9yyjTgSFozs_EAE/edit?usp=drive_link)
+
 
 Key risk themes identified in the report included broad internal access to sensitive data, lack of encryption for payment data, missing access controls (least privilege and separation of duties), missing intrusion detection capabilities (IDS), and lack of backups and disaster recovery planning.
 
