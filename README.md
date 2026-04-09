@@ -26,12 +26,13 @@ I am a final-year cybersecurity master’s student graduating in May 2026 with h
 ---
 
 ## Projects (Case Studies)
-- <a href="./projects/dos-incident-nist-csf.md">Network DoS Incident Response & Analysis (NIST CSF)</a>  
+- <a href="./projects/dos-incident-nist-csf.md">Network DoS Incident Response & Analysis (NIST CSF)</a>
+- <a href="./projects/internal-security-audit.md">Internal Security Audit & Compliance Assessment (Simulated Enterprise)</a>
+- <a href="./projects/test.md">Linux File System Security & Permission Management</a>  
 - <a href="./projects/ransomware-incident-response.md">Ransomware Incident Response & Forensic Analysis</a>  
 - <a href="./projects/web-vuln-assessment.md">Web Application Vulnerability Assessment (Penetration Testing)</a>  
 - <a href="./projects/autopsy-forensics.md">Digital Forensics Tool Evaluation (Autopsy)</a>  
-- <a href="./projects/internal-security-audit.md">Internal Security Audit & Compliance Assessment (Simulated Enterprise)</a>
-- <a href="./projects/test.md">Linux File System Security & Permission Management</a>   
+
 
 ---
 
