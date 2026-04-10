@@ -30,9 +30,8 @@ This command allowed me to:
 - Identify ownership (user and group)  
 - Detect potential misconfigurations and excessive permissions  
 
-**Screenshot Placeholder**  
 ![image](screenshots/1234.JPG)
-`
+**Screenshot Placeholder**  
 
 ---
 
