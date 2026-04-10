@@ -31,7 +31,7 @@ This command allowed me to:
 - Detect potential misconfigurations and excessive permissions  
 
 **Screenshot Placeholder**  
-![Description of the image](screenshots/1234.jpg)
+![Screenshot description](projects/screenshots/1234.JPG)
 `
 
 ---
