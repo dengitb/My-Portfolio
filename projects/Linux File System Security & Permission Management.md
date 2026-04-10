@@ -31,7 +31,8 @@ This command allowed me to:
 - Detect potential misconfigurations and excessive permissions  
 
 **Screenshot Placeholder**  
-`screenshots/ls-la-output.png`
+`screenshots/ls-la-output.png <img width="296" height="252" alt="image" src="https://github.com/user-attachments/assets/8080d9de-0bb8-44a9-9834-eb25780a3469" />
+`
 
 ---
 
