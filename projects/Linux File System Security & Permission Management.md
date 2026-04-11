@@ -244,7 +244,7 @@ chmod 700 drafts
 
 This action aligns with the policy requirement that sensitive directories must be restricted to authorized users only.
 
-![directory fix](screenshots/chmod-directory.png)
+![directory fix](screenshots/chmod-directory.JPG)
 
 ---
 
