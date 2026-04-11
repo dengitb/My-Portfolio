@@ -188,7 +188,7 @@ chmod g-w project_t.txt
 
 This action aligns with the policy requirement that group access should be restricted unless explicitly justified.
 
-![group fix](screenshots/chmod-group-fix.png)
+![group fix](screenshots/chmod-group-fix.JPG)
 
 ---
 
