@@ -2,17 +2,23 @@
 
 ## Incident / Assessment Overview
 
-This project presents a Linux-based file system security assessment conducted in a simulated enterprise environment supporting a research team. As part of routine security operations, the organization required verification that file and directory permissions were properly configured to enforce authorized access only and prevent unauthorized modification of sensitive research data.
+This project presents a Linux-based file system security assessment conducted in a simulated enterprise environment supporting a research team. The objective of this assessment was to validate that file and directory permissions were correctly configured to enforce authorized access and to prevent unauthorized modification, exposure, or misuse of sensitive research data.
 
-In this scenario, I acted as a security professional responsible for access control enforcement within the `/home/researcher2/projects` directory. The objective was to review existing permissions, identify misconfigurations, and implement corrective actions to align with the organization’s security policy and the principle of least privilege.
+As part of routine security operations, the organization required a formal review of its file system access controls to ensure compliance with internal security policies and best practices. Misconfigured permissions can introduce significant risks, including unauthorized data modification, insider threats, and privilege escalation. Therefore, a systematic evaluation of access controls was necessary to maintain the confidentiality and integrity of research data.
+
+In this scenario, I acted as a security professional responsible for access control enforcement within the `/home/researcher2/projects` directory. My objective was to review existing permissions, identify misconfigurations or excessive privileges, and implement corrective actions to align with the organization’s access control policy and the principle of least privilege.
 
 ### Security Policy Requirements
 
-- No unauthorized users (group or others) should have write access to files  
-- Sensitive and archived files must be properly restricted  
-- Directory access must follow least privilege principles  
+The organization enforces a strict file system access control policy to ensure that permissions are appropriately assigned and do not expose sensitive data to unauthorized users. The key requirements include:
 
-**My role:** Analyze file system permissions, interpret Linux permission structures, identify security gaps, and apply corrective controls using Linux command-line tools.
+- Write permissions must not be assigned to “others” under any circumstances  
+- Group permissions must be restricted to read-only access unless explicitly required  
+- Hidden files must be treated as sensitive and must not allow unauthorized modification  
+- Directory access must be limited to authorized users, with execute permissions carefully controlled  
+- All permissions must follow the principle of least privilege and be regularly reviewed for compliance  
+
+**My role:** I analyzed file system permissions, interpreted Linux permission structures, identified security gaps, and applied corrective controls using Linux command-line tools such as `ls -la` and `chmod`. This process ensured that all access controls were properly enforced and aligned with the organization’s security policy.
 
 ---
 
