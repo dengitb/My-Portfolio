@@ -42,20 +42,6 @@ This command allowed me to:
 
 ---
 
-## Environment Overview
-
-**Files analyzed:**
-- project_k.txt  
-- project_m.txt  
-- project_r.txt  
-- project_t.txt  
-- .project_x.txt (hidden file)  
-
-**Directory:**
-- drafts/  
-
----
-
 ## Key Findings & Impact
 
 ### Permission Misconfigurations Identified
