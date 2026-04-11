@@ -1,41 +1,40 @@
-# Denis Souop — Cybersecurity Portfolio (SOC & Incident Response Focus)
+# Denis Souop — Cybersecurity Portfolio (Cybersecurity Analyst | Incident Response | Digital Forensics)
 
-Welcome to my cybersecurity portfolio. This repository showcases hands-on projects, technical experience, and coursework across Security Operations (SOC), Digital Forensics & Incident Response (DFIR), vulnerability assessment, and Governance, Risk, and Compliance (GRC) within simulated enterprise environments.
+Welcome! This portfolio highlights my cybersecurity coursework, hands-on projects, and technical experience across Security Operations (SOC), Digital Forensics & Incident Response (DFIR), vulnerability assessment, and penetration testing within academic and simulated enterprise environments.
 
-<a href="https://linkedin.com/in/denis-souop"><img src="https://img.shields.io/badge/LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://github.com/dengitb"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/denis-souop"><img src="https://img.shields.io/badge/LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://github.com/dengitb/My-Portfolio"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 ---
 
 ## About Me  
+I am a cybersecurity professional completing a Master’s in Cybersecurity Technology with hands-on experience in security operations, threat detection, incident response, digital forensics, and vulnerability assessment within simulated enterprise environments.  
 
-I am a cybersecurity professional completing a Master’s degree in Cybersecurity Technology with hands-on experience in incident response, digital forensics, vulnerability assessment, and security auditing within enterprise-style environments.
-
-My work focuses on threat detection, log analysis, and structured security assessments to identify and respond to real-world attack scenarios. I am particularly interested in strengthening security operations through improved visibility, efficient incident response, and risk-driven security controls.
+I focus on analyzing network traffic, authentication logs, and system artifacts to identify indicators of compromise, reconstruct attacker activity, and support effective security monitoring and incident response operations. My work aligns with industry frameworks such as NIST and MITRE ATT&CK.
 
 ---
 
 ## Core Skills
 
-| Domain | Skills & Focus |
-|--------|----------------|
-| **SOC & Incident Response** | Incident triage, containment and recovery workflows, incident documentation, response playbooks, NIST CSF (Identify–Protect–Detect–Respond–Recover) |
-| **Threat Detection & Log Analysis** | Windows/Linux event log analysis, IOC identification, alert triage, IDS fundamentals, network traffic analysis |
-| **Digital Forensics (DFIR)** | Evidence collection and preservation, chain of custody, order of volatility, disk analysis using Autopsy |
-| **Web Application Security & Vulnerability Management** | OWASP Top 10, vulnerability scanning, vulnerability validation (SQLi/XSS fundamentals), remediation reporting |
-| **Governance, Risk & Compliance (GRC)** | Security control assessment (administrative, technical, physical), compliance gap analysis, risk prioritization |
-| **System & Network Hardening** | Access control enforcement, Linux permission hardening, firewall review, ICMP rate limiting, IDS/IPS fundamentals |
+| Domain                                        | Skills & Focus                                                                                                                                                |
+|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SOC & Incident Response                       | Incident triage, containment and recovery workflows, NIST CSF (Identify–Protect–Detect–Respond–Recover), incident documentation and response playbooks         |
+| Threat Detection & Log Analysis               | Windows/Linux event log analysis, IOC identification, alert triage, basic IDS concepts, network traffic pattern review                                        |
+| Digital Forensics (DFIR)                      | Evidence collection and preservation, chain of custody, order of volatility, disk image analysis with Autopsy                                                  |
+| Web Application Security & Vulnerability Mgmt | OWASP Top 10, vulnerability scanning, validation of findings (SQLi/XSS fundamentals), remediation reporting                                                    |
+| Governance, Risk & Compliance (Internal Audit)| Administrative, technical, and physical controls assessment, compliance gap analysis (payment security, data privacy), risk prioritization and recommendations |
+| Network Security Hardening                    | Firewall rule review, ICMP rate limiting, IDS/IPS fundamentals, basic network traffic inspection                                                               |
+| Penetration Testing & Reconnaissance          | Nmap scanning, service enumeration, CVE analysis, Metasploit exploitation, OSINT (Whois, DNS, DNSDumpster, OSINT Framework), attack surface analysis          |
 
 ---
 
 ## Projects (Case Studies)
-
-- [Network DoS Incident Response & Analysis (NIST CSF)](./projects/dos-incident-nist-csf.md)  
-- [Internal Security Audit & Compliance Assessment (Simulated Enterprise)](./projects/internal-security-audit.md)  
-- [Linux Access Control Hardening & File System Security Assessment](./projects/Linux%20File%20System%20Security%20%26%20Permission%20Management.md)  
-- [Ransomware Incident Response & Forensic Analysis](./projects/ransomware-incident-response.md)  
-- [Web Application Vulnerability Assessment (Penetration Testing)](./projects/web-vuln-assessment.md)  
-- [Digital Forensics Tool Evaluation (Autopsy)](./projects/autopsy-forensics.md)  
+- <a href="./projects/dos-incident-nist-csf.md">Network DoS Incident Response & Analysis (NIST CSF)</a>
+- <a href="./projects/internal-security-audit.md">Internal Security Audit & Compliance Assessment (Simulated Enterprise)</a>
+- <a href="./projects/Linux File System Security & Permission Management.md">Linux File System Security & Permission Management</a>  
+- <a href="./projects/ransomware-incident-response.md">Ransomware Incident Response & Forensic Analysis</a>  
+- <a href="./projects/web-vuln-assessment.md">Web Application Vulnerability Assessment (Penetration Testing)</a>  
+- <a href="./projects/autopsy-forensics.md">Digital Forensics Tool Evaluation (Autopsy)</a>  
 
 ---
 
@@ -44,7 +43,7 @@ My work focuses on threat detection, log analysis, and structured security asses
 ### Network & Traffic Analysis
 <div>
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=Wireshark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nmap-004C99?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Nmap-004C99?style=for-the-badge&logo=Nmap&logoColor=white" />
 </div>
 
 ### Security Testing & Assessment
@@ -68,7 +67,6 @@ My work focuses on threat detection, log analysis, and structured security asses
 ---
 
 ## Certifications  
-
 <div>
   <img src="https://img.shields.io/badge/CompTIA%20Security%2B%20(In%20Progress)-FF0000?style=for-the-badge&logo=CompTIA&logoColor=white" />
   <img src="https://img.shields.io/badge/Google%20Cybersecurity%20Certificate%20(In%20Progress)-4285F4?style=for-the-badge&logo=google&logoColor=white" />
@@ -77,21 +75,17 @@ My work focuses on threat detection, log analysis, and structured security asses
 ---
 
 ## Education  
-
 **University of Maryland Global Campus (UMGC)**  
-Master’s in Cybersecurity Technology (Expected 2026)  
-
 Relevant Coursework:  
-- Digital Forensics & Incident Response  
-- Cybersecurity for Software  
+- CTCH 665 – Digital Forensics & Incident Response  
+- CTCH 685 – Cybersecurity for Software  
 
 ---
 
 ## About This Portfolio  
-
-Each project demonstrates a structured cybersecurity workflow, including:
-
-- Incident or assessment context  
+Each project includes:
+- Incident or assessment overview  
 - Technical methodology and tools used  
-- Key findings and security impact  
-- Remediation strategies and lessons learned  
+- Key findings and identified vulnerabilities  
+- Attacker behavior and impact analysis  
+- Recommendations to improve detection, response, and system security  
