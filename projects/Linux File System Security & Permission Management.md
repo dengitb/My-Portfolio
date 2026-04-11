@@ -38,8 +38,6 @@ This command allowed me to:
 
 ![image](screenshots/ls-la.JPG)
 
-**Screenshot Placeholder**  
-
 ---
 
 ## Key Findings & Impact
@@ -137,7 +135,6 @@ To address the critical issue of global write access, I removed unauthorized wri
 ```bash
 chmod go-w project_k.txt
 ```
-
 ### Explanation
 - `g` refers to group  
 - `o` refers to others  
@@ -162,7 +159,6 @@ To enforce least privilege and reduce insider risk, I removed unnecessary group 
 chmod g-w project_r.txt
 chmod g-w project_t.txt
 ```
-
 ### Explanation
 - `g` refers to group  
 - `-w` removes write permission  
@@ -185,7 +181,6 @@ The hidden file was improperly configured with group write access, which violate
 ```bash
 chmod 640 .project_x.txt
 ```
-
 ### Explanation
 Linux uses a numeric (octal) permission system where each digit represents a set of permissions assigned to the user, group, and others.
 
@@ -217,7 +212,6 @@ To eliminate unauthorized directory traversal and enforce strict access control:
 ```bash
 chmod 700 drafts
 ```
-
 ### Explanation
 - `7` → user (read, write, execute)  
 - `0` → group (no access)  
@@ -244,7 +238,6 @@ The implemented changes successfully addressed all identified policy violations 
 - Enforcing least privilege across all files and directories  
 
 These actions significantly improved the overall security posture of the system and ensured compliance with the organization’s access control policy.
-
 
 ---
 
