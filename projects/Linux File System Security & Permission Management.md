@@ -220,7 +220,7 @@ Permissions are calculated by adding these values together.
 
 This remediation ensures compliance with policy requirements for protecting hidden and archived files.
 
-![hidden file fix](screenshots/hidden-file.png)
+![hidden file fix](screenshots/hidden-file.JPG)
 
 ---
 
