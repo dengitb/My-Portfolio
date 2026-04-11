@@ -273,6 +273,69 @@ During this project, I reinforced the following security concepts:
 - Clear distinction between user, group, and others access levels  
 
 ---
+### Verification & Validation
+
+After applying remediation actions, I validated that all permissions were correctly enforced using:
+
+```bash
+ls -la
+```
+
+I confirmed:
+- No files had write permissions for "others"
+- Group permissions were limited to read-only where appropriate
+- Hidden files followed strict access control rules
+- Sensitive directories were restricted to the owner only
+
+This step ensured that remediation actions were effective and aligned with policy requirements.
+
+---
+
+### Before vs After Summary
+
+| Item | Before | After | Risk Reduction |
+|------|--------|-------|--------------|
+| project_k.txt | -rw-rw-rw- | -rw-r--r-- | Eliminated global write access |
+| project_r.txt / project_t.txt | -rw-rw-r-- | -rw-r--r-- | Removed unnecessary group write |
+| .project_x.txt | -rw--w---- | -rw-r----- | Secured hidden file access |
+| drafts/ | drwx--x--- | drwx------ | Restricted directory traversal |
+
+---
+
+### Key Security Principles Applied
+
+- Principle of Least Privilege (PoLP)
+- Access Control Enforcement
+- Data Integrity Protection
+- Insider Threat Mitigation
+- Secure Configuration Management
+
+---
+
+### Real-World Relevance
+
+This type of assessment is critical in enterprise environments where:
+- Sensitive data must be protected from unauthorized access
+- Misconfigured permissions can lead to data breaches
+- Security audits are required for compliance (e.g., NIST, ISO 27001)
+
+The techniques demonstrated in this project are directly applicable to:
+- SOC Analyst roles (monitoring and remediation)
+- Security Analyst roles (risk identification and mitigation)
+- System Administration (secure configuration and hardening)
+
+---
+
+## Final Summary
+
+This project demonstrates a full security workflow:
+
+1. Identify misconfigurations
+2. Analyze risks based on policy
+3. Apply targeted remediation
+4. Validate and verify corrections
+
+By enforcing strict access controls and aligning configurations with security policies, I significantly improved the system’s security posture and reduced the risk of unauthorized access and data compromise.
 
 ## Summary
 
