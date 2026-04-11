@@ -91,31 +91,53 @@ This structure enabled me to identify:
 ### Permission Misconfigurations Identified
 
 #### File-Level Issues
-- **project_k.txt**  
-  Write access granted to group and others, allowing unauthorized modification  
 
-- **project_r.txt and project_t.txt**  
-  Unnecessary group write access, increasing risk of unintended or malicious changes  
+- **project_k.txt (`-rw-rw-rw-`)**  
+  Write access is granted to both group and others, making the file globally writable.  
+  This directly violates the organization’s policy, which strictly prohibits write permissions for “others.”  
+  As a result, any user on the system can modify the file, creating a high-risk exposure.
 
-- **.project_x.txt (hidden file)**  
-  Incorrect permissions where the group had write access instead of read-only access  
+- **project_r.txt and project_t.txt (`-rw-rw-r--`)**  
+  Group write access is enabled without a clearly defined business requirement.  
+  While less critical than global write access, this configuration exceeds least privilege requirements and allows unauthorized modification by group members.
+
+- **.project_x.txt (hidden file) (`-rw--w----`)**  
+  The file is misconfigured with group write-only access, which violates the policy for hidden file protection.  
+  Hidden files must not allow modification by group or others.  
+  This configuration is particularly risky because it allows changes to be made without visibility, increasing the likelihood of unnoticed tampering.
+
+---
 
 #### Directory-Level Issues
-- **drafts/**  
-  Group had execute access, allowing unintended access to directory contents  
+
+- **drafts/ (`drwx--x---`)**  
+  The directory grants execute (`x`) permission to the group, allowing users to traverse and access its contents.  
+  This violates the requirement that sensitive directories must be restricted to authorized users only (in this case, the owner `researcher2`).  
+  Directory execute permissions can expose file structure and enable unintended access.
 
 ---
 
 ### Security Impact
 
-These misconfigurations introduced several risks:
+These misconfigurations introduce several security risks and policy violations:
 
-- Unauthorized modification of sensitive research data  
-- Increased exposure to insider threats  
-- Potential privilege escalation through writable files  
-- Exposure of hidden or archived data  
-- Violation of least privilege and access control policies  
+- **Unauthorized data modification:**  
+  Globally writable and group-writable files allow unauthorized users to alter sensitive research data.
 
+- **Insider threat exposure:**  
+  Excessive group permissions increase the likelihood of misuse or accidental modification by internal users.
+
+- **Privilege escalation opportunities:**  
+  Writable files can be leveraged by attackers to manipulate data or execute malicious actions.
+
+- **Hidden data exposure and tampering:**  
+  Improperly secured hidden files can be modified without detection, increasing the risk of stealth attacks.
+
+- **Unauthorized directory access:**  
+  Execute permissions on directories enable traversal, potentially exposing sensitive file names and contents.
+
+- **Non-compliance with access control policy:**  
+  The identified issues demonstrate inconsistent enforcement of least privilege and organizational security standards.
 ---
 
 ## Remediation Actions Performed
