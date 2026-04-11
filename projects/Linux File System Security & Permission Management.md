@@ -201,10 +201,17 @@ chmod 640 .project_x.txt
 ```
 
 ### Explanation
+Linux uses a numeric (octal) permission system where each digit represents a set of permissions assigned to the user, group, and others.
+
+#### Permission Values
+- 4 = read (r)
+- 2 = write (w)
+- 1 = execute (x)
+
+Permissions are calculated by adding these values together. 
 - `6` → user (read + write)  
 - `4` → group (read only)  
 - `0` → others (no access)  
-
 ### Outcome
 - Removed unauthorized group write access  
 - Ensured controlled read-only access for authorized group members  
