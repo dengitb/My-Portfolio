@@ -164,7 +164,7 @@ chmod go-w project_k.txt
 
 This remediation significantly reduced the risk of unauthorized modification and data tampering.
 
-![project_k fix](screenshots/chmod-project_k.png)
+![project_k fix](screenshots/chmod-project_k.JPG)
 
 ---
 
