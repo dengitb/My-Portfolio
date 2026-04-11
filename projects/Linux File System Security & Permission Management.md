@@ -312,21 +312,7 @@ This step ensured that remediation actions were effective and aligned with polic
 
 ---
 
-### Real-World Relevance
-
-This type of assessment is critical in enterprise environments where:
-- Sensitive data must be protected from unauthorized access
-- Misconfigured permissions can lead to data breaches
-- Security audits are required for compliance (e.g., NIST, ISO 27001)
-
-The techniques demonstrated in this project are directly applicable to:
-- SOC Analyst roles (monitoring and remediation)
-- Security Analyst roles (risk identification and mitigation)
-- System Administration (secure configuration and hardening)
-
----
-
-## Final Summary
+## Summary
 
 This project demonstrates a full security workflow:
 
@@ -335,11 +321,8 @@ This project demonstrates a full security workflow:
 3. Apply targeted remediation
 4. Validate and verify corrections
 
+This project demonstrates my ability to apply Linux security best practices, enforce access control policies, and protect sensitive data through proper permission management.
 By enforcing strict access controls and aligning configurations with security policies, I significantly improved the system’s security posture and reduced the risk of unauthorized access and data compromise.
 
-## Summary
 
-In this project, I analyzed and secured a Linux file system by identifying permission misconfigurations and enforcing appropriate access controls. Using tools such as `ls -la` and `chmod`, I removed excessive privileges, corrected hidden file permissions, and restricted directory access to authorized users only.
-
-This project demonstrates my ability to apply Linux security best practices, enforce access control policies, and protect sensitive data through proper permission management—skills that are essential for SOC Analyst, Security Analyst, and system hardening roles.
 
