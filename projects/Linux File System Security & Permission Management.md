@@ -140,9 +140,13 @@ This structure enabled me to identify:
 ---
 ## Remediation Actions Performed
 
-### 1. Securing Over-Permissive Files
+Based on the identified policy violations and permission misconfigurations, I implemented targeted remediation actions to enforce least privilege, eliminate unauthorized access, and restore compliance with the organization’s file system security policy.
 
-To enforce least privilege, I removed unauthorized write access using:
+---
+
+### 1. Securing Globally Writable File (project_k.txt)
+
+To address the critical issue of global write access, I removed unauthorized write permissions assigned to both group and others:
 
 ```bash
 chmod go-w project_k.txt
@@ -153,28 +157,44 @@ chmod go-w project_k.txt
 - `o` refers to others  
 - `-w` removes write permission  
 
-This command removed write permissions from group and others and ensured that only the file owner can modify the file.
+### Outcome
+- Eliminated global write access (`-rw-rw-rw-` → `-rw-r--r--`)  
+- Ensured that only the file owner retains write privileges  
+- Brought the file into compliance with the policy prohibiting write access for “others”  
 
-**Screenshot Placeholder**  
-`screenshots/chmod-project_k.png`
+This remediation significantly reduced the risk of unauthorized modification and data tampering.
+
+![project_k fix](screenshots/chmod-project_k.png)
 
 ---
 
-### 2. Securing Hidden File Permissions
+### 2. Restricting Excessive Group Write Permissions (project_r.txt, project_t.txt)
 
-Hidden files are often overlooked but can contain sensitive or archived data and must be properly secured.
+To enforce least privilege and reduce insider risk, I removed unnecessary group write access:
 
-**File:**
+```bash
+chmod g-w project_r.txt
+chmod g-w project_t.txt
 ```
-.project_x.txt
-```
 
-**Required Permissions:**
-- User: read + write  
-- Group: read only  
-- Others: no access  
+### Explanation
+- `g` refers to group  
+- `-w` removes write permission  
 
-**Command Used:**
+### Outcome
+- Updated permissions from `-rw-rw-r--` to `-rw-r--r--`  
+- Limited modification rights to the file owner only  
+- Reduced exposure to unauthorized changes by group members  
+
+This action aligns with the policy requirement that group access should be restricted unless explicitly justified.
+
+![group fix](screenshots/chmod-group-fix.png)
+
+---
+
+### 3. Securing Hidden File Permissions (.project_x.txt)
+
+The hidden file was improperly configured with group write access, which violates hidden file protection requirements.
 
 ```bash
 chmod 640 .project_x.txt
@@ -185,24 +205,21 @@ chmod 640 .project_x.txt
 - `4` → group (read only)  
 - `0` → others (no access)  
 
-This change:
-- Prevents unauthorized modification  
-- Maintains controlled access for the group  
-- Protects sensitive archived data  
+### Outcome
+- Removed unauthorized group write access  
+- Ensured controlled read-only access for authorized group members  
+- Fully restricted access for others  
+- Secured sensitive hidden data against unauthorized or unnoticed modification  
 
-**Screenshot Placeholder**  
-`screenshots/hidden-file.png`
+This remediation ensures compliance with policy requirements for protecting hidden and archived files.
+
+![hidden file fix](screenshots/hidden-file.png)
 
 ---
 
-### 3. Restricting Directory Access
+### 4. Restricting Directory Access (drafts/)
 
-The `drafts` directory must only be accessible by `researcher2`.
-
-**Current Issue:**  
-Group had execute access, allowing unauthorized users to access directory contents.
-
-**Command Used:**
+To eliminate unauthorized directory traversal and enforce strict access control:
 
 ```bash
 chmod 700 drafts
@@ -213,12 +230,28 @@ chmod 700 drafts
 - `0` → group (no access)  
 - `0` → others (no access)  
 
-This ensures:
-- Only the owner can access the directory  
-- No unauthorized browsing or execution is possible  
+### Outcome
+- Removed group execute permission (`drwx--x---` → `drwx------`)  
+- Prevented unauthorized users from traversing or accessing directory contents  
+- Ensured that only the owner (`researcher2`) can access the directory  
 
-**Screenshot Placeholder**  
-`screenshots/chmod-directory.png`
+This action aligns with the policy requirement that sensitive directories must be restricted to authorized users only.
+
+![directory fix](screenshots/chmod-directory.png)
+
+---
+
+## Remediation Summary
+
+The implemented changes successfully addressed all identified policy violations by:
+
+- Eliminating global and group-based write access where not required  
+- Securing hidden files against unauthorized modification  
+- Restricting directory access to authorized users only  
+- Enforcing least privilege across all files and directories  
+
+These actions significantly improved the overall security posture of the system and ensured compliance with the organization’s access control policy.
+
 
 ---
 
