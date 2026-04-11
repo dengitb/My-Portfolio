@@ -42,36 +42,6 @@ This command allowed me to:
 
 ---
 
-## Permission Analysis Methodology
-
-I analyzed permissions using the standard 10-character Linux permission string.
-
-### Example
-
-```bash
--rw-rw-r--
-```
-
-### Breakdown
-
-- 1st character → File type (`-` = file, `d` = directory)  
-- Next 3 → User (owner) permissions  
-- Next 3 → Group permissions  
-- Last 3 → Others permissions  
-
-### Interpretation
-
-- User: read + write  
-- Group: read + write  
-- Others: read only  
-
-This structure enabled me to identify:
-- Excessive write permissions  
-- Unauthorized access exposure  
-- Violations of least privilege principles  
-
----
-
 ## Environment Overview
 
 **Files analyzed:**
@@ -139,7 +109,35 @@ These misconfigurations introduce several security risks and policy violations:
 - **Non-compliance with access control policy:**  
   The identified issues demonstrate inconsistent enforcement of least privilege and organizational security standards.
 ---
+## Permission Analysis Methodology
 
+I analyzed permissions using the standard 10-character Linux permission string.
+
+### Example
+
+```bash
+-rw-rw-r--
+```
+
+### Breakdown
+
+- 1st character → File type (`-` = file, `d` = directory)  
+- Next 3 → User (owner) permissions  
+- Next 3 → Group permissions  
+- Last 3 → Others permissions  
+
+### Interpretation
+
+- User: read + write  
+- Group: read + write  
+- Others: read only  
+
+This structure enabled me to identify:
+- Excessive write permissions  
+- Unauthorized access exposure  
+- Violations of least privilege principles  
+
+---
 ## Remediation Actions Performed
 
 ### 1. Securing Over-Permissive Files
