@@ -36,7 +36,7 @@ This command allowed me to:
 - Identify ownership (user and group)  
 - Detect potential misconfigurations and excessive permissions  
 
-![image](screenshots/1234.JPG)
+![image](screenshots/ls -la.JPG)
 
 **Screenshot Placeholder**  
 
